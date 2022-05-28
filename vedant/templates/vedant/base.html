@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="{% static 'vedant/css/bootstrap.css' %}">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2 class="text-center alert alert-danger">Function based views</h2>
+    {% block content %} {% endblock content %}
+</div>
+
+<script src="{% static 'vedant/js/jquery.js' %}"></script>
+<script src="{% static 'vedant/js/popper.js' %}"></script>
+<script src="{% static 'vedant/js/bootstrap.js' %}"></script>
+
+</body>
+</html>
